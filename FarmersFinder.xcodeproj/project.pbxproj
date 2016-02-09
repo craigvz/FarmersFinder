@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4423D7DF1C6A65AF0064133D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4423D7DE1C6A65AF0064133D /* main.m */; };
+		4423D7E21C6A65AF0064133D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4423D7E11C6A65AF0064133D /* AppDelegate.m */; };
+		4423D7E51C6A65AF0064133D /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4423D7E41C6A65AF0064133D /* MasterViewController.m */; };
+		4423D7E81C6A65AF0064133D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4423D7E71C6A65AF0064133D /* DetailViewController.m */; };
+		4423D7EB1C6A65AF0064133D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4423D7E91C6A65AF0064133D /* Main.storyboard */; };
+		4423D7ED1C6A65AF0064133D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4423D7EC1C6A65AF0064133D /* Assets.xcassets */; };
+		4423D7F01C6A65AF0064133D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4423D7EE1C6A65AF0064133D /* LaunchScreen.storyboard */; };
+		4423D7F91C6A665A0064133D /* MarketTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4423D7F81C6A665A0064133D /* MarketTableViewCell.m */; };
+		4423D7FB1C6A66B40064133D /* sloMarkets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4423D7FA1C6A66B40064133D /* sloMarkets.plist */; };
+		4423D7FE1C6A85E00064133D /* MarketLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4423D7FD1C6A85E00064133D /* MarketLocation.m */; };
+		4423D8011C6A86310064133D /* BHLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4423D8001C6A86310064133D /* BHLocationManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4423D7DA1C6A65AF0064133D /* FarmersFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FarmersFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4423D7DE1C6A65AF0064133D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4423D7E01C6A65AF0064133D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4423D7E11C6A65AF0064133D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4423D7E31C6A65AF0064133D /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		4423D7E41C6A65AF0064133D /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		4423D7E61C6A65AF0064133D /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		4423D7E71C6A65AF0064133D /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		4423D7EA1C6A65AF0064133D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4423D7EC1C6A65AF0064133D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4423D7EF1C6A65AF0064133D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4423D7F11C6A65AF0064133D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4423D7F71C6A665A0064133D /* MarketTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MarketTableViewCell.h; path = ../MarketTableViewCell.h; sourceTree = "<group>"; };
+		4423D7F81C6A665A0064133D /* MarketTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MarketTableViewCell.m; path = ../MarketTableViewCell.m; sourceTree = "<group>"; };
+		4423D7FA1C6A66B40064133D /* sloMarkets.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sloMarkets.plist; sourceTree = "<group>"; };
+		4423D7FC1C6A85E00064133D /* MarketLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketLocation.h; sourceTree = "<group>"; };
+		4423D7FD1C6A85E00064133D /* MarketLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketLocation.m; sourceTree = "<group>"; };
+		4423D7FF1C6A86310064133D /* BHLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHLocationManager.h; sourceTree = "<group>"; };
+		4423D8001C6A86310064133D /* BHLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHLocationManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4423D7D71C6A65AF0064133D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4423D7D11C6A65AF0064133D = {
+			isa = PBXGroup;
+			children = (
+				4423D7DC1C6A65AF0064133D /* FarmersFinder */,
+				4423D7DB1C6A65AF0064133D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4423D7DB1C6A65AF0064133D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4423D7DA1C6A65AF0064133D /* FarmersFinder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4423D7DC1C6A65AF0064133D /* FarmersFinder */ = {
+			isa = PBXGroup;
+			children = (
+				4423D7E01C6A65AF0064133D /* AppDelegate.h */,
+				4423D7E11C6A65AF0064133D /* AppDelegate.m */,
+				4423D7E31C6A65AF0064133D /* MasterViewController.h */,
+				4423D7E41C6A65AF0064133D /* MasterViewController.m */,
+				4423D7F71C6A665A0064133D /* MarketTableViewCell.h */,
+				4423D7F81C6A665A0064133D /* MarketTableViewCell.m */,
+				4423D7E61C6A65AF0064133D /* DetailViewController.h */,
+				4423D7E71C6A65AF0064133D /* DetailViewController.m */,
+				4423D7FC1C6A85E00064133D /* MarketLocation.h */,
+				4423D7FD1C6A85E00064133D /* MarketLocation.m */,
+				4423D7FF1C6A86310064133D /* BHLocationManager.h */,
+				4423D8001C6A86310064133D /* BHLocationManager.m */,
+				4423D7E91C6A65AF0064133D /* Main.storyboard */,
+				4423D7EC1C6A65AF0064133D /* Assets.xcassets */,
+				4423D7EE1C6A65AF0064133D /* LaunchScreen.storyboard */,
+				4423D7F11C6A65AF0064133D /* Info.plist */,
+				4423D7FA1C6A66B40064133D /* sloMarkets.plist */,
+				4423D7DD1C6A65AF0064133D /* Supporting Files */,
+			);
+			path = FarmersFinder;
+			sourceTree = "<group>";
+		};
+		4423D7DD1C6A65AF0064133D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4423D7DE1C6A65AF0064133D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4423D7D91C6A65AF0064133D /* FarmersFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4423D7F41C6A65AF0064133D /* Build configuration list for PBXNativeTarget "FarmersFinder" */;
+			buildPhases = (
+				4423D7D61C6A65AF0064133D /* Sources */,
+				4423D7D71C6A65AF0064133D /* Frameworks */,
+				4423D7D81C6A65AF0064133D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FarmersFinder;
+			productName = FarmersFinder;
+			productReference = 4423D7DA1C6A65AF0064133D /* FarmersFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4423D7D21C6A65AF0064133D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "blueHula Studios";
+				TargetAttributes = {
+					4423D7D91C6A65AF0064133D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4423D7D51C6A65AF0064133D /* Build configuration list for PBXProject "FarmersFinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4423D7D11C6A65AF0064133D;
+			productRefGroup = 4423D7DB1C6A65AF0064133D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4423D7D91C6A65AF0064133D /* FarmersFinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4423D7D81C6A65AF0064133D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4423D7F01C6A65AF0064133D /* LaunchScreen.storyboard in Resources */,
+				4423D7ED1C6A65AF0064133D /* Assets.xcassets in Resources */,
+				4423D7EB1C6A65AF0064133D /* Main.storyboard in Resources */,
+				4423D7FB1C6A66B40064133D /* sloMarkets.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4423D7D61C6A65AF0064133D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4423D7FE1C6A85E00064133D /* MarketLocation.m in Sources */,
+				4423D7E21C6A65AF0064133D /* AppDelegate.m in Sources */,
+				4423D8011C6A86310064133D /* BHLocationManager.m in Sources */,
+				4423D7E51C6A65AF0064133D /* MasterViewController.m in Sources */,
+				4423D7DF1C6A65AF0064133D /* main.m in Sources */,
+				4423D7E81C6A65AF0064133D /* DetailViewController.m in Sources */,
+				4423D7F91C6A665A0064133D /* MarketTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4423D7E91C6A65AF0064133D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4423D7EA1C6A65AF0064133D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4423D7EE1C6A65AF0064133D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4423D7EF1C6A65AF0064133D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4423D7F21C6A65AF0064133D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4423D7F31C6A65AF0064133D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4423D7F51C6A65AF0064133D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FarmersFinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluehula.FarmersFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4423D7F61C6A65AF0064133D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FarmersFinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bluehula.FarmersFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4423D7D51C6A65AF0064133D /* Build configuration list for PBXProject "FarmersFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4423D7F21C6A65AF0064133D /* Debug */,
+				4423D7F31C6A65AF0064133D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4423D7F41C6A65AF0064133D /* Build configuration list for PBXNativeTarget "FarmersFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4423D7F51C6A65AF0064133D /* Debug */,
+				4423D7F61C6A65AF0064133D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4423D7D21C6A65AF0064133D /* Project object */;
+}
