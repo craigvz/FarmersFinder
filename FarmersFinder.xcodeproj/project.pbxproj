@@ -18,6 +18,7 @@
 		4423D7FB1C6A66B40064133D /* sloMarkets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4423D7FA1C6A66B40064133D /* sloMarkets.plist */; };
 		4423D7FE1C6A85E00064133D /* MarketLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4423D7FD1C6A85E00064133D /* MarketLocation.m */; };
 		4423D8011C6A86310064133D /* BHLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4423D8001C6A86310064133D /* BHLocationManager.m */; };
+		4423D8041C6CF6C30064133D /* PopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4423D8031C6CF6C30064133D /* PopViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		4423D7FD1C6A85E00064133D /* MarketLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketLocation.m; sourceTree = "<group>"; };
 		4423D7FF1C6A86310064133D /* BHLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHLocationManager.h; sourceTree = "<group>"; };
 		4423D8001C6A86310064133D /* BHLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHLocationManager.m; sourceTree = "<group>"; };
+		4423D8021C6CF6C30064133D /* PopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopViewController.h; sourceTree = "<group>"; };
+		4423D8031C6CF6C30064133D /* PopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,8 @@
 				4423D7E11C6A65AF0064133D /* AppDelegate.m */,
 				4423D7E31C6A65AF0064133D /* MasterViewController.h */,
 				4423D7E41C6A65AF0064133D /* MasterViewController.m */,
+				4423D8021C6CF6C30064133D /* PopViewController.h */,
+				4423D8031C6CF6C30064133D /* PopViewController.m */,
 				4423D7F71C6A665A0064133D /* MarketTableViewCell.h */,
 				4423D7F81C6A665A0064133D /* MarketTableViewCell.m */,
 				4423D7E61C6A65AF0064133D /* DetailViewController.h */,
@@ -177,6 +182,7 @@
 				4423D7E21C6A65AF0064133D /* AppDelegate.m in Sources */,
 				4423D8011C6A86310064133D /* BHLocationManager.m in Sources */,
 				4423D7E51C6A65AF0064133D /* MasterViewController.m in Sources */,
+				4423D8041C6CF6C30064133D /* PopViewController.m in Sources */,
 				4423D7DF1C6A65AF0064133D /* main.m in Sources */,
 				4423D7E81C6A65AF0064133D /* DetailViewController.m in Sources */,
 				4423D7F91C6A665A0064133D /* MarketTableViewCell.m in Sources */,

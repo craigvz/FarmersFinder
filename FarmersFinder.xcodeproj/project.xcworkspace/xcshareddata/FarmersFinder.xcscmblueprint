@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "334E256A5DFA5DF7780ABE52526917FC3FA35E5C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "334E256A5DFA5DF7780ABE52526917FC3FA35E5C" : 0,
+    "537A14F5792B6C7F57838B15AA2272D6F0E4D11F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E220F01C-068D-45B6-9435-D9013A6491D5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "334E256A5DFA5DF7780ABE52526917FC3FA35E5C" : "FarmersFinder\/",
+    "537A14F5792B6C7F57838B15AA2272D6F0E4D11F" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FarmersFinder",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FarmersFinder.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/craigvz\/FarmersFinder.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "334E256A5DFA5DF7780ABE52526917FC3FA35E5C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/craigvz\/response-deck",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "537A14F5792B6C7F57838B15AA2272D6F0E4D11F"
+    }
+  ]
+}

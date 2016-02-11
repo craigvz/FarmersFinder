@@ -26,6 +26,8 @@
     
     [[BHLocationManager sharedManager].locationManager startUpdatingLocation];
     
+    [self createDynamicShortcutItems];
+    
     return YES;
 }
 
@@ -65,6 +67,20 @@
     } else {
         return NO;
     }
+}
+
+- (void)createDynamicShortcutItems {
+    
+    // create several (dynamic) shortcut items
+    UIApplicationShortcutItem *item1 = [[UIApplicationShortcutItem alloc]initWithType:@"Item 1" localizedTitle:@"Item 1"];
+    UIApplicationShortcutItem *item2 = [[UIApplicationShortcutItem alloc]initWithType:@"Item 2" localizedTitle:@"Item 2"];
+    UIApplicationShortcutItem *item3 = [[UIApplicationShortcutItem alloc]initWithType:@"Item 3" localizedTitle:@"Item 3"];
+    
+    // add all items to an array
+    NSArray *items = @[item1, item2, item3];
+    
+    // add the array to our app
+    [UIApplication sharedApplication].shortcutItems = items;
 }
 
 @end
